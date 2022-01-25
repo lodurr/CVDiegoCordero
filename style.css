@@ -6,7 +6,8 @@
  *  Design by: Iskender Piyale-Sheard
  *  website: izzydoesizzy.com
  *  Created 06-27-2016
- *  Last Updated: 03-19-2017
+ *  Modified: Diego Cordero
+ *  Last Updated: 01-24-2022
  *  ------------------------------------------------------------------
  *  Table of Contents:
 
@@ -16,7 +17,8 @@
  *  04. Icon Fonts
  *  05. Section Styles
  *  06. Timeline Styles
- *  05. Footer
+ *  07. Education
+ *  08. Footer
  EXTRAS
 
  * =================================================================== 
@@ -72,12 +74,6 @@
     font-weight: bolder;
     opacity: 1;
  }
-
-
-
-
-
-
 
 
 /* 02. Intro
@@ -236,7 +232,7 @@ section {
     border-top: 5px solid #fff;
  }
 
-/* 01. Timeline Styles
+/* 06. Timeline Styles
  * =================================================================== */
 
  .timeline-icon .fa {
@@ -255,7 +251,7 @@ section {
     height: auto;
 }
 
-/* 04. Education
+/* 07. Education
  * =================================================================== */
 .info{
     font-size: larger;
@@ -286,7 +282,7 @@ section {
     margin-left: 5px;
 }
 
-/* 05. Footer
+/* 08. Footer
  * =================================================================== */
 
 footer {

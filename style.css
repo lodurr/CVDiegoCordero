@@ -446,7 +446,7 @@ footer p {
 }
 
 .res-nav_click {
-    display: none;
+    display: none;  
 }
 
 /* Nav Styles
@@ -460,6 +460,7 @@ footer p {
     border: 0px solid #fff;
     min-height: 40px;
     margin-bottom: 0px;
+    
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -552,73 +553,4 @@ footer p {
 .footbar-inverse {
     background-color: transparent;
     border-color: transparent;
-}
-
-.footbar {
-    border: 0px solid #fff;
-    min-height: 40px;
-    margin-bottom: 0px;
-}
-
-.footbar-inverse .footbar-nav > li > a {
-    color: #FFF;
-}
-
-.footStyle {
-    float: right;
-}
-
-.footStyle ul {
-    list-style: none;
-    padding-top: 10px;
-}
-
-.footStyle ul li {
-    display: inline-block;
-    margin: 0 5px;
-  }
-
-.footStyle ul li:last-child {
-    margin: 0 0 0 23px;
-}
-
-.footStyle ul li a {
-    display: block;
-    font-size: 14px;
-    color: #222222;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-}
-
-.footStyle ul li a:hover {
-    color: #178c24;
-}
-
-.footStyle > li > a:hover, .foot > li > a:focus {
-    text-decoration: none;
-    color: #178c24;
-    background-color: transparent;
-}
-
-.footbar-inverse .footbar-nav > li > a:hover, .footbar-inverse .footbar-nav > li > a:focus {
-    color: #178c24;
-    background-color: transparent;
-}
-
-.footbar-inverse .footbar-nav > .active > a, .footbar-inverse .footbar-nav > .active > a:hover, .footbar-inverse .footbar-nav > .active > a:focus {
-    color: #fff;
-	background-color: #0B8E36;
-	border-radius:5%;
-}
-
-.footStyle > li.active > a,
-.footStyle > li.active > a:hover {
-    text-decoration: none;
-    color: #000;
-    background-color: transparent;
 }

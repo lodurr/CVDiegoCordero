@@ -6,7 +6,7 @@
  *  Design by: Iskender Piyale-Sheard
  *  website: izzydoesizzy.com
  *  Created 06-27-2016
- *  Modified: Diego Cordero
+ *  Modified by: Diego Cordero
  *  Last Updated: 01-24-2022
  *  ------------------------------------------------------------------
  *  Table of Contents:
@@ -415,7 +415,7 @@ footer p {
     }
 
     #skills {
-        background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+        background: #151515 url(https://magnusd.cc/002-5-things-scrum-works-best-for-small-teams.jpg?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
         background-position: top center;
 
     }
@@ -431,5 +431,194 @@ footer p {
     }
 
 }
+/* Header Styles
+---------------------------------*/
+
+#header_wrapper {
+    background: #000 ;
+    position: relative;
+    padding-bottom: 15px;
+}
 
 
+.header_box {
+    position: relative;
+}
+
+.res-nav_click {
+    display: none;
+}
+
+/* Nav Styles
+---------------------------------*/
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar {
+    border: 0px solid #fff;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navStyle {
+    float: right;
+}
+
+.navStyle ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.navStyle ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+.navStyle ul li:last-child {
+    margin: 0 0 0 23px;
+}
+
+.navStyle ul li a {
+    display: block;
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.navStyle ul li a:hover {
+    color: #178c24;
+}
+
+.navStyle > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #178c24;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #178c24;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+	background-color: #0B8E36;
+	border-radius:5%;
+}
+
+.navStyle > li.active > a,
+.navStyle > li.active > a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+}
+
+.borderLeft {
+    border-left: 1px solid #DADADA;
+}
+
+.borderTop {
+    margin-top: 10px;
+    border-top: 1px solid #DADADA;
+}
+
+.mrgTop {
+    margin-top: 10px;
+}
+
+
+/* Foot Styles
+---------------------------------*/
+
+.footer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.footbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.footbar {
+    border: 0px solid #fff;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+
+.footbar-inverse .footbar-nav > li > a {
+    color: #FFF;
+}
+
+.footStyle {
+    float: right;
+}
+
+.footStyle ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footStyle ul li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+.footStyle ul li:last-child {
+    margin: 0 0 0 23px;
+}
+
+.footStyle ul li a {
+    display: block;
+    font-size: 14px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.footStyle ul li a:hover {
+    color: #178c24;
+}
+
+.footStyle > li > a:hover, .foot > li > a:focus {
+    text-decoration: none;
+    color: #178c24;
+    background-color: transparent;
+}
+
+.footbar-inverse .footbar-nav > li > a:hover, .footbar-inverse .footbar-nav > li > a:focus {
+    color: #178c24;
+    background-color: transparent;
+}
+
+.footbar-inverse .footbar-nav > .active > a, .footbar-inverse .footbar-nav > .active > a:hover, .footbar-inverse .footbar-nav > .active > a:focus {
+    color: #fff;
+	background-color: #0B8E36;
+	border-radius:5%;
+}
+
+.footStyle > li.active > a,
+.footStyle > li.active > a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+}

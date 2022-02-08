@@ -19,13 +19,41 @@
     <!-- LinearIcons Icon Font -->
     <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet"><!-- Main Stylesheet -->
     <link href="style.css" rel="stylesheet"><!-- Timeline CSS -->
+
 </head>
 
 <body>
+    <!-- Header SECTION -->
+    <header id="header_wrapper">
+        <div class="container">
+            <div class="header_box">
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span
+                                class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="main-nav" class="collapse navbar-collapse navStyle">
+                        <ul class="nav navbar-nav" id="mainNav">
+                            <li class="active"><a href="#inicio" class="scroll-link">Inicio</a></li>
+                            <li><a href="#about" class="scroll-link">Acerca de mi</a></li>
+                            <li><a href="#languages" class="scroll-link">Lenguajes</a></li>
+                            <li><a href="#educacion" class="scroll-link">Educación</a></li>
+                            <li><a href="#skills" class="scroll-link">Certificaciones</a></li>
+                            <li><a href="#experiencia" class="scroll-link">Experiencia Laboral</a></li>
+                            <li><a href="#footer" class="scroll-link">Contacto </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <!-- INTRO SECTION -->
 
 
-    <section class="section-image">
+    <section id="inicio" class="section-image">
         <div class="img-overlay"></div>
         <div class="intro">
             <div class="row">
@@ -140,7 +168,7 @@
     </section>
 
     <!-- STUDIES SECTION -->
-    <section class="section-primary" id="about">
+    <section class="section-primary" id="educacion">
         <div class="container">
             <div class="row education">
                 <div class="three columns header-col">
@@ -240,7 +268,7 @@
     </section>
 
     <!-- EXPERIENCE SECTION -->
-    <section class="section-primary" id="about">
+    <section class="section-primary" id="experiencia">
         <div class="container">
             <div class="row education">
                 <div class="three columns header-col">
@@ -350,12 +378,28 @@
 
     <!-- FOOTER SECTION -->
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer_box">
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div id="main-nav" class="collapse navbar-collapse navStyle">
+                        <ul class="nav navbar-nav" id="mainNav">
+                            <li><a onclick="descargarResume()" class="scroll-link">Descargar Resume</a></li>
+                            <li><a onclick="downloadResume()" class="scroll-link">Download Resume</a></li>
+                            <li><a onclick="enviarCorreo()" class="scroll-link">Enviar Correo</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
+
                 <div class="col-md-4">
                     <p>Design by: <a href="http://www.izzydoesizzy.com" target="_blank">Iskender Piyale-Sheard</a><br>
-                        Modified by: Diego Cordero<br> </a>
+                        Modified by: <a href="https://lodurr.github.io/CVDiegoCordero/" target="_blank">Diego
+                            Cordero<br></a><br>
                         <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><i
                                 class="fa fa-creative-commons"></i>
                             Attribution 4.0 License</a>
@@ -372,23 +416,15 @@
                         <a href="http://www.twitter.com/lodurr" target="_blank"><i class="fa fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/in/engdiegocordero" target="_blank"><i
                                 class="fa fa-linkedin"></i></a>
-                        <a href="http://www.github.com/izzydoesizzy" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="http://www.github.com/lodurr" target="_blank"><i class="fa fa-github"></i></a>
                     </div> <!-- /social footer -->
                 </div> <!-- /col-md-4 -->
             </div><!-- /row -->
         </div><!-- /container -->
     </footer>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script>
-    <script>
-        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="js/bootstrap.min.js">
-    </script>
-    <script src="js/scripts.js">
+
+    <!-- SCRIPT SECTION -->
+    <script src="script.js">
     </script>
 </body>
 
